@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+  <meta name="google-site-verification" content="true">
+
+
+
+
+
+
+
+
+  <meta name="baidu-site-verification" content="true">
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Markdown,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="markdown是一种轻量级的标记语言。  语法十分简单，常用的标记符号不超过十个  它用简洁的语法排版，专心码字 导出格式随心所欲，HTML格式或者PDF等">
+<meta name="keywords" content="Markdown">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown常用的十个基础语法，一学就会">
+<meta property="og:url" content="https://bigyellowhsw.github.io/2018/12/22/2018-12-22 Markdown常用的十个基础语法/index.html">
+<meta property="og:site_name" content="BigYellow">
+<meta property="og:description" content="markdown是一种轻量级的标记语言。  语法十分简单，常用的标记符号不超过十个  它用简洁的语法排版，专心码字 导出格式随心所欲，HTML格式或者PDF等">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15557974-3707d332cf85593a.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15557974-38757e3c2c49bb80.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15557974-610eee6e9ddcce55.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15557974-e6e38f9ac55528c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15557974-5756b17e10794080.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15557974-da2b2d2938f185d3.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15557974-7fa87457d5a280cb.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15557974-3e802262094319ee.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15557974-c3ac9368a2cdaeb2.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15557974-5113e52a93e94c96.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/15557974-5a820e1fea6954b2.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2018-12-23T09:51:01.115Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Markdown常用的十个基础语法，一学就会">
+<meta name="twitter:description" content="markdown是一种轻量级的标记语言。  语法十分简单，常用的标记符号不超过十个  它用简洁的语法排版，专心码字 导出格式随心所欲，HTML格式或者PDF等">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/15557974-3707d332cf85593a.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://bigyellowhsw.github.io/2018/12/22/2018-12-22 Markdown常用的十个基础语法/">
+
+
+
+
+
+  <title>Markdown常用的十个基础语法，一学就会 | BigYellow</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">BigYellow</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://bigyellowhsw.github.io/2018/12/22/2018-12-22 Markdown常用的十个基础语法/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="BigYellow">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/header.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="BigYellow">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Markdown常用的十个基础语法，一学就会</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-22T11:53:46+08:00">
+                2018-12-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/工具/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i> 本文总阅读量
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>次
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>markdown是一种轻量级的标记语言。</p>
+<ul>
+<li>语法十分简单，常用的标记符号不超过十个 </li>
+<li>它用简洁的语法排版，专心码字</li>
+<li>导出格式随心所欲，HTML格式或者PDF等</li>
+</ul>
+<hr>
+<a id="more"></a> 
+<p>先列出简书的markdown语法参考，感觉已经足够大部分的使用了，如果不能理解，请往下看。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">##### 五级标题</span><br><span class="line"></span><br><span class="line">- 列表第一项</span><br><span class="line">- 列表第二项</span><br><span class="line"></span><br><span class="line">1. 有序列表第一项</span><br><span class="line">2. 有序列表第二项</span><br><span class="line"></span><br><span class="line">[标题](链接地址)</span><br><span class="line">![图片描述](图片链接地址)</span><br><span class="line"></span><br><span class="line">*斜体*</span><br><span class="line">**粗体**</span><br><span class="line">&gt; 引用段落</span><br><span class="line">```代码块</span><br></pre></td></tr></table></figure>
+<p><code>`</code></p>
+<hr>
+<p>如果上面的简书参考不能让你理解，下面我将介绍下markdown常用的十个语法。</p>
+<h4 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h4><p>在行首插入 1 到 6 个<strong>#</strong>，对应到标题 1 到 6 阶。建议在井号后加一个空格，这是最标准的 Markdown 语法。<br><img src="https://upload-images.jianshu.io/upload_images/15557974-3707d332cf85593a.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h4 id="2-列表"><a href="#2-列表" class="headerlink" title="2. 列表"></a>2. 列表</h4><p>无序列表：无序列表使用星号、加号或是减号作为列表标记，<strong>-+*</strong>中任意一种字符后跟内容，中间加上一个字符的空格。<br>有序列表：有序列表则使用数字接着一个英文句点：<strong>数字.</strong>后跟内容，中间加上一个字符的空格。<br><img src="https://upload-images.jianshu.io/upload_images/15557974-38757e3c2c49bb80.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h4 id="3-引用"><a href="#3-引用" class="headerlink" title="3. 引用"></a>3. 引用</h4><p>如果你需要引用一小段别处的句子，那么就要用引用的格式。只需要在文本前加入 <strong>&gt;</strong>这种尖括号（大于号）即可。引用的区块内也可以使用其他的 Markdown 语法，包括标题、列表、代码区块等。<br><img src="https://upload-images.jianshu.io/upload_images/15557974-610eee6e9ddcce55.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h4 id="4-图片"><a href="#4-图片" class="headerlink" title="4.图片"></a>4.图片</h4><p><strong>![Alt text](path “title”)</strong><br>图片alt就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加<br><img src="https://upload-images.jianshu.io/upload_images/15557974-e6e38f9ac55528c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt><br><img src="https://upload-images.jianshu.io/upload_images/15557974-5756b17e10794080.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h4 id="5-链接"><a href="#5-链接" class="headerlink" title="5. 链接"></a>5. 链接</h4><p><strong>[超链接名](超链接地址 “超链接title”)</strong><br>title可加可不加<br><img src="https://upload-images.jianshu.io/upload_images/15557974-da2b2d2938f185d3.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h4 id="6-分割线"><a href="#6-分割线" class="headerlink" title="6. 分割线"></a>6. 分割线</h4><p><strong>***</strong><br><strong>—</strong><br><strong>___</strong><br>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。<br><img src="https://upload-images.jianshu.io/upload_images/15557974-7fa87457d5a280cb.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h4 id="7-强调"><a href="#7-强调" class="headerlink" title="7. 强调"></a>7. 强调</h4><p><strong>*斜体*</strong><br><strong>_斜体_</strong><br><strong>**粗体**</strong><br><strong>__粗体__</strong><br>使用星号<em>和底线_作为标记强调字词的符号。被 </em>或 _包围的字词会被转成斜体；用两个 *或 _包起来的话，则会被转成粗体。<br><img src="https://upload-images.jianshu.io/upload_images/15557974-3e802262094319ee.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h4 id="8-转义"><a href="#8-转义" class="headerlink" title="8. 转义"></a>8. 转义</h4><p>想在文章中插入普通的符号，在#+-.等等符号前加入反斜线\即可，或者用()把转义的符号括起来。<br><img src="https://upload-images.jianshu.io/upload_images/15557974-c3ac9368a2cdaeb2.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h4 id="9-代码"><a href="#9-代码" class="headerlink" title="9. 代码"></a>9. 代码</h4><p>如果要标记一小段行内代码，你可以用反引号把它包起来 <strong>`</strong>，例如：<br>`print(‘Hello world’)`<br>你可以用多个反引号来开启和结束代码区段：<br>```<br>print(‘Hello world’)<br>print(‘Hello world again’)<br>```<br><img src="https://upload-images.jianshu.io/upload_images/15557974-5113e52a93e94c96.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h4 id="10-表格"><a href="#10-表格" class="headerlink" title="10. 表格"></a>10. 表格</h4><p>语法：<br>表头|表头|表头<br>-–|:–:|—:<br>内容|内容|内容<br>内容|内容|内容</p>
+<p>第二行分割表头和内容。其中- 有一个就行，为了对齐，多加了几个。<br>文字默认居左，-两边加：表示文字居中，-右边加：表示文字居右。<br>注：原生的语法两边都要用 | 包起来。此处省略。</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/15557974-5a820e1fea6954b2.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Markdown/" rel="tag"># Markdown</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/12/21/2018-12-21 Hexo的使用/" rel="next" title="Hexo的使用">
+                <i class="fa fa-chevron-left"></i> Hexo的使用
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/12/23/2018-12-23 python配置virtualenv环境/" rel="prev" title="python配置virtualenv环境">
+                python配置virtualenv环境 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/header.png" alt="BigYellow">
+            
+              <p class="site-author-name" itemprop="name">BigYellow</p>
+              <p class="site-description motion-element" itemprop="description">态度决定一切，细节决定成败。</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-标题"><span class="nav-number">1.</span> <span class="nav-text">1. 标题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-列表"><span class="nav-number">2.</span> <span class="nav-text">2. 列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-引用"><span class="nav-number">3.</span> <span class="nav-text">3. 引用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-图片"><span class="nav-number">4.</span> <span class="nav-text">4.图片</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-链接"><span class="nav-number">5.</span> <span class="nav-text">5. 链接</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-分割线"><span class="nav-number">6.</span> <span class="nav-text">6. 分割线</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-强调"><span class="nav-number">7.</span> <span class="nav-text">7. 强调</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-转义"><span class="nav-number">8.</span> <span class="nav-text">8. 转义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#9-代码"><span class="nav-number">9.</span> <span class="nav-text">9. 代码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#10-表格"><span class="nav-number">10.</span> <span class="nav-text">10. 表格</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">BigYellow</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i> 本站访客数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人次
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i> 本站总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
